@@ -15,7 +15,7 @@
 		<pathelement path="${work.home}"/>
 	</path>
 
-	< --- Distribution list 
+	<!-- Distribution Management --> 
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
