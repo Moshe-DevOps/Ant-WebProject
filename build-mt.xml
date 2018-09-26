@@ -15,6 +15,20 @@
 		<pathelement path="${work.home}"/>
 	</path>
 
+	< --- Distribution list 
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://localhost:8082/mithuntechno/repository/wallmart-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://localhost:8082/mithuntechno/repository/wallmart-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+		
 	<target name="prepare"  description="Create working dirs and copy static files to work dir">
 		<mkdir  dir="${dist.home}"/>
 		<mkdir  dir="${work.home}/WEB-INF/classes"/>
