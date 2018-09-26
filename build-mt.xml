@@ -20,12 +20,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8082/mithuntechno/repository/wallmart-releases/</url>
+	      <url>http://localhost:8880/repository/maven-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8082/mithuntechno/repository/wallmart-snapshot/</url>
+	      <url>http://localhost:8880/repository/maven-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 		
